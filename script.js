@@ -6,4 +6,9 @@ function turnOn(){
     lamp.src = './img/ligada.jpg'
 };
 
+function turnOff(){
+    lamp.src = './img/desligada.jpg'
+};
+
 lampOn.addEventListener('click', turnOn);
+lampOff.addEventListener('click', turnOff);
