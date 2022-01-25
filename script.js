@@ -12,3 +12,5 @@ function turnOff(){
 
 lampOn.addEventListener('click', turnOn);
 lampOff.addEventListener('click', turnOff);
+lamp.addEventListener('mouseover', turnOn);
+lamp.addEventListener('mouseleave', turnOff);
